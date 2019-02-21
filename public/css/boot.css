@@ -1,0 +1,61 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul{list-style: none;}
+a{text-decoration: none; color: #3C72B4;}
+img{outline: 0;}
+a img{outline: 0;}
+
+/******* Helpers ***********/
+.clear{clear: both;}
+
+/********* Font-Size Zero ***********/
+.fontzero{font-size: 0 !important;}
+
+/********* Titles *********/
+.font_size{font-size: 1.5em; font-weight: 600; padding: 15px 0;}
+.font_big_size{font-size: 2em; font-weight: 800; padding: 15px 0;}
+.title_sub_size{font-size: 1.2em; font-weight: 600; padding: 15px 0;}
+
+/********** Transitions **************/
+.transitions{
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+/********* Radius card **********/
+.radius_card{
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.radius_card_round{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+/********** Shado-Box ***********/
+.shadows{
+    box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+    -moz-box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+    -webkit-box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+}
+
+.shadows_inset{
+    box-shadow: inset 50px -10px 5px 0 #ef6500;
+    background: #c85704;
+}
