@@ -1,4 +1,4 @@
-body{background: #f1f8fa;}
+body{background: #fff;}
 /********* main-header **********/
 .main_header{
     width: 100%;
@@ -245,8 +245,149 @@ body{background: #f1f8fa;}
     color: #fff;
 }
 
+/**** Habilidades ******/
+.main_habilidades{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.main_habilidades > h1{
+    font-size: 1.6em;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px;
+}
 
+.box_habili{
+    width: 33.33%;
+    margin-bottom: 15px;
+}
 
+.box_habili h1{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #6e42ca;
+    padding: 10px 0;
+}
 
+.ul_list{
+    width: 100%;
+}
 
+.ul_list li{
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+/**** main contato *****/
+.main_contato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../images/background-sobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box_contato{
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #6e42ca;
+}
+
+.box_contato h1{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.box_contato span{
+    font-size: 1em;
+    padding: 3px 0;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+}
+
+.box_contato span p{
+    color: #d9d9d9;
+    padding: 0 5px;
+}
+
+.box_form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.box_form h1{
+ font-size: 1.6em;
+ font-weight: 600;
+ color: #fff;
+ padding: 15px 0;
+ text-align: center;
+ width: 100%;
+}
+
+.box_form form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box_form form .icon_input{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icon_input input{
+    width: 100%;
+    padding: 3px 15px;
+    font-size: 1em;
+    color: #666;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #6e42ca;
+    margin-bottom: 15px;
+}
+
+.btn_mail{
+    display: flex;
+    width: 60%;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background: #6e42ca;
+}
+
+.main_footer{
+    width: 100%;
+    padding: 12px;
+    background: #000;
+}
+
+.main_footer p{
+    font-size: 0.8em;
+    color: #fff;
+    text-align: center;
+}
