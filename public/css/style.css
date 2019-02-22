@@ -1,1 +1,252 @@
 body{background: #f1f8fa;}
+/********* main-header **********/
+.main_header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0 15px;
+    border-bottom: 5px solid #861cf2;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1{
+    background: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 174px;
+    height: 60px;
+}
+
+.main_nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main_nav .navigator{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigator li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navigator li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 8px;
+    color: #9da5aa;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.navigator li a:hover{
+    color: #6e42ca;
+}
+
+/****** Main Sobre ******/
+.main_sobre{
+    width: 100%;
+    background-image: url(../images/background-sobre.png);
+    background-size: cover;e
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box_sobre{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.minha_foto{
+    width: 24%;
+    margin: 20px 0;
+    overflow: hidden;
+    animation: sobre-radius 1s 0.3s ease-in-out infinite;
+}
+
+.minha_foto img{
+    width: 100%;
+    float: left;
+}
+
+.description_sobre{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.arco{
+    position: absolute;
+    top: -80px;
+    background: url(../images/arco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115px 85px;
+    width: 115px;
+    height: 85px;
+}
+
+.description_sobre span{
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    color: #dfe3e6;
+    padding-bottom: 3px;
+}
+
+.description_sobre span h1{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #33bcf5;
+    padding-left: 5px;
+}
+
+.description_sobre span h2{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #33bcf5;
+    padding-left: 5px;
+}
+
+.description_sobre span p{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #33bcf5;
+    padding-left: 5px;
+}
+
+.btn_sobre{
+    background: #861cf2;
+    padding: 12px 25px;
+    margin: 15px 0;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn_sobre:hover{
+    background: #5d34b2;
+}
+
+/**** Portfólio ********/
+
+.main_portfolio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_portfolio > h1{
+    font-size: 1.6em;
+    font-weight: 600;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.box_port{
+    position: relative;
+    width: 32%;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    overflow: hidden;
+
+    box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+    -moz-box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+    -webkit-box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+}
+
+.img_template{
+    width: 100%;
+}
+
+.img_template a, img{width: 100%;}
+
+
+.descript_port{
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background: rgba(110,66,202,0.4);
+}
+
+.descript_port h2{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+    display: none;
+}
+
+.descript_port p{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.descript_port .btn_view{
+  padding: 7px 20px;
+  font-weight: 600;
+  color: #6e42ca;
+  background: #fff;
+  transition: background 0.3s ease-in-out;
+
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+
+  box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+    -moz-box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+    -webkit-box-shadow: 2px 4px 18px rgba(0,0,0,.2);
+}
+
+.descript_port .btn_view:hover{
+    background: #6e42ca;
+    color: #fff;
+}
+
+
+
+
+
+

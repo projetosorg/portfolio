@@ -3,7 +3,7 @@
     padding: 0;
     outline: 0;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 1em;
     font-weight: 400;
 
@@ -58,4 +58,30 @@ a img{outline: 0;}
 .shadows_inset{
     box-shadow: inset 50px -10px 5px 0 #ef6500;
     background: #c85704;
+}
+
+/***** Containers *******/
+.container{
+    width: 100%;
+    padding: 15px;
+}
+
+.content{
+    width: 85%;
+    margin: 0 auto;
+}
+
+@keyframes sobre-radius{
+    0%{
+        border: 10px solid rgba(122,29,237,0.6);
+        transition: all 0.5s ease-in-out;
+    }
+    50%{
+        border: 10px solid rgba(122,29,237,0.3);
+        transform: translate(1px);
+    }
+    100%{
+        border: 10px solid rgba(122,29,237,0.6);
+        transition: all 0.5s ease-in-out;
+    }
 }
